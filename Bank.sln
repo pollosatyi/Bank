@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank", "Bank\Bank.csproj", "{5E08A952-3339-46E3-9130-A9DA61B4338E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{E54567FC-4B0D-47DA-9D4A-51F25B49C883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.DAL", "Bank.DAL\Bank.DAL.csproj", "{89567AE4-786C-4EC8-B859-C7AA327208FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E08A952-3339-46E3-9130-A9DA61B4338E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E08A952-3339-46E3-9130-A9DA61B4338E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E08A952-3339-46E3-9130-A9DA61B4338E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E08A952-3339-46E3-9130-A9DA61B4338E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89567AE4-786C-4EC8-B859-C7AA327208FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89567AE4-786C-4EC8-B859-C7AA327208FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89567AE4-786C-4EC8-B859-C7AA327208FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89567AE4-786C-4EC8-B859-C7AA327208FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89567AE4-786C-4EC8-B859-C7AA327208FF} = {E54567FC-4B0D-47DA-9D4A-51F25B49C883}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57511E45-C0F1-4EC2-A4A1-732B42EDA3EF}
+	EndGlobalSection
+EndGlobal
